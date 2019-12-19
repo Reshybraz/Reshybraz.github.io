@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+	<head> 
+		<title> ePortfolio </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        
+        <!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+        <!-- end mobile specific info -->
+        
+		<!--fichier css: general, icones, bootstrap-->
+        <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
+		<link rel="stylesheet" type="text/css" href="./CSS/icofont/icofont.min.css"/>
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+	</head>
+	
+	<body ontouchstart="">
+		<div id="globale">	
+			<header class="hidden-xs"> <!-- balise html5 equivalant à <div id="header"> -->
+				<table>
+				<tr>
+					<th><img src="./images/folio_logo_big.jpg"/></th>
+					<td><h1 align="center"> Julien Coeurdevey </h1></td>
+				</tr>
+				</table>
+			</header>
+			
+			
+			<div style="clear:both"></div>
+			
+			
+			<div id="menu">
+			<nav class="nav nav-pills nav-fill flex-sm-row flex-xs-row" align="center">
+					<li class="nav-item"><a class="nav-link active" href="index.html">Accueil<br><i class="icofont-home"></i></a></li>
+					<li class="nav-item"><a class="nav-link" href="experience.html">Experience<br><i class="icofont-bag-alt"></i></a></li>
+					<li class="nav-item"><a class="nav-link" href="competences.html">Aptitudes<br><i class="icofont-library"></i></a></li>
+					<li class="nav-item"><a class="nav-link" href="loisirs.html">Activités<br><i class="icofont-game-pad"></i></a></li>
+					<li class="nav-item"><a class="nav-link" href="contact.html">Contact<br><i class="icofont-address-book"></i></a></li>
+			</nav>
+			</div> <!-- fin id=menu -->
+			
+			
+			<div id="page">
+				<section id="sec1">
+					<div id="contenu">
+					<h2>Bienvenue sur mon site !</h2>
+					<p> Ce site est mon ePortfolio. Vous y retrouverez mes compétences, mes aptitudes et mes loisirs en cliquant sur les onglets du menu.<br>
+					Ici,vous aurez accès à une présentation officielle de moi-meme.
+					</p>
+						<table align="center"> <!--tableau de présentation-->
+							<th colspan="2" class="hidden-xs hidden-sm"><h3 align="center">PRESENTATION</h3></th>
+							<td class=" hidden-md hidden-xl hidden-lg"><h3>PRESENTATION</h3></td>
+							<tr>
+								<th class="hidden-xs hidden-sm">NOM</th>
+								<td>Coeurdevey</td>
+							</tr>
+							<tr>
+								<th class="hidden-xs hidden-sm">PRENOM</th>
+								<td>Julien</td>
+							</tr>
+							<tr>
+								<th class="hidden-xs hidden-sm">DATE DE NAISSANCE</th>
+								<td>17/09/2001</td>
+							</tr>
+							<tr>
+								<th class="hidden-xs hidden-sm">VILLE DE RESIDENCE</th>
+								<td>Bretigny sur orge</td>
+							</tr>
+							<tr>
+								<th rowspan="2" class="hidden-xs hidden-sm">ETUDES</th>
+								<td>BAC SSI spécialité ISN</td>
+							</tr>
+							<tr>
+								<td>DUT Informatique</td>
+							</tr>
+							<tr>
+								<th class="hidden-xs hidden-sm">CENTRES D'INTERETS</th>
+								<td>Jeux vidéos, nouvelles technologies, culture générale et geek</td>
+							</tr>
+							<tr>
+								<th rowspan="3" class="hidden-xs hidden-sm"> STATS</th>
+								<!--intégration de barres-->
+								<td>
+									<div class="progress">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="min-width: 70%;">
+									Capacité d'assimilation des connaissances
+									</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="progress">
+									<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="min-width: 40%;">
+									Sociabilité
+									</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="progress">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="min-width: 80%;">
+									Assiduité
+									</div>
+									</div>
+								</td>
+							</tr><!--fin integration barres-->
+							<tr>
+								<th class="hidden-xs hidden-sm">BIOGRAPHIE</th>
+								<td><p id="bio">Né le 17 septembre 2001, Julien est un élève plutôt modèle. Assez timide, il a du mal à sociabiliser avec d'autres personnes. Intéressé par les nouvelles technologies, il se tourne vers l'informatique pour ses études sans trop savoir dans quoi se spécialiser </p></td>
+							</tr>
+						</table><!--fin tableau presentation-->
+					</div>
+				</section>
+			</div> <!-- fin id="page"-->
+		</div> <!-- fin id="globale"-->
+	</body>
+</html>

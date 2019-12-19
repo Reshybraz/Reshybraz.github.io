@@ -1,0 +1,99 @@
+/*fichier css*/
+
+body {
+	background-image:url(../images/fond_ecran.png);
+}
+	
+nav {
+	color:black;
+	background-color:lightgray;
+	width: 100%;
+}
+
+nav li{
+	display:block;
+	text-decoration:none;
+}
+
+nav li a {
+	text-align:center;
+}
+
+header {
+	color:white;
+	background-color:grey;
+	float:center;
+}
+header table h1 {
+	text-decoration:none;
+}
+header table {
+	width: 100%;
+	border:none;
+}
+
+p {
+	color:white;
+}
+
+h1, h2, h3 {
+	color: white;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#page {
+	color:white;
+	text-align:center;
+	float:center;
+}
+
+#contenu table {
+	border-collapse:collapse;
+	border: 5px solid;
+	cellspacing: 5%;
+	background-color:brown;
+	width:80%;
+}
+ 
+#contenu th,td {
+	border: 1px solid;
+}
+header table td {
+	 width:80%;
+	 border:none;
+ }
+ 
+#bio {
+	width:90%;
+}
+
+#menu {
+	float:center;
+}
+
+.active {
+	background-color:black;
+}
+
+.icofont {
+	font-size:50px;
+}
+
+@media screen and (min-width: 1020px) {
+	nav li{
+		width:200px;
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width: 1020px) {
+	nav li{
+		width:120px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	nav li{
+		width:95px;
+	}
+]
